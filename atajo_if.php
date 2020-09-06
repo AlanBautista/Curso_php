@@ -1,0 +1,11 @@
+<?php
+    # isset() ayuda a saber si una variable tiene un dato o on
+    $edad = (isset($edad ))? $edad: 'El usuario no establecio su edad';
+    // if (isset($edad)) {
+    // 	$edad = $edad;
+    // } else {
+    // 	$edad = 'El usuario no establecio su edad';
+    // }
+
+    echo 'Edad: ' . $edad;
+?>
